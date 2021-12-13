@@ -11,30 +11,63 @@ body{
     grid-template-columns: 15% 15% 15% 15%;
     justify-content: space-evenly;
     padding: 10px;
+    opacity: 0;
+    transition: 1s ease;
+}
+#sayan{
+    position: relative;
 }
 .icon{
     width: 100%;
     margin: 5px;
     height: 100px;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
 }
-@media screen and (max-width: 750px) and (min-width: 375px) {
+@media screen and (max-width: 800px) and (min-width: 376px) {
     .parenticon{
         grid-template-columns: 35% 35%;
         grid-row-gap: 10px;
     }
 }
-@media screen and (max-width: 374px){
+@media screen and (max-width: 375px){
     .parenticon{
         grid-template-columns: 60%;
         grid-row-gap: 10px;
     }
 }
 .icon:hover{
-    background-color: rgb(255, 187, 0);
+    background-color: rgb(255, 136, 0);
     box-shadow: rgb(197, 197, 197) 0px 10px 20px 0px;
-
 }
+div.icon img{
+    height: 100%;
+    aspect-ratio: 1;
+}
+div.icon4 img{
+    height: 120%;
+}
+.go{
+    position: absolute;
+    top: -30%;
+    left: 80%;
+    animation: truck 3s ease-out 1;
+    animation-delay: 500ms;
+    opacity: 0;
+}
+
+@keyframes truck {
+    from{
+        opacity: 1;
+    }
+    to{
+        left: 0;
+        opacity: 0.2;
+    }
+}
+
 /* Sayan's styling ends here */
 
 /* This is the part of Gairik's styling */

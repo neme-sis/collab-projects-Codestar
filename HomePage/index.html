@@ -14,11 +14,12 @@
         </article>
 
         <article id="sayan">
+            <div class="go"><img src="./images/truck.png" alt=""></div>
             <div class="parenticon">
-                <div class="icon icon1"></div>
-                <div class="icon icon2"></div>
-                <div class="icon icon3"></div>
-                <div class="icon icon4"></div>
+                <div class="icon icon1"><img src="./images/courses.png" alt=""></div>
+                <div class="icon icon2"><img src="./images/about.png" alt=""></div>
+                <div class="icon icon3"><img src="./images/aim.png" alt=""></div>
+                <div class="icon icon4"><img src="./images/joinus.png" alt=""></div>
             </div>
         </article>
 
@@ -26,5 +27,15 @@
             
         </article>
     </main>
+    <script>
+        var main = document.getElementsByClassName("parenticon")[0];
+        var go = document.getElementsByClassName("go")[0];
+        window.addEventListener('load', ()=>{
+            setInterval(()=>{
+                main.style.opacity= '1';
+                go.style.opacity ='0';
+            },3000)
+        })
+    </script>
 </body>
 </html>
