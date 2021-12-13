@@ -1,9 +1,40 @@
+body{
+    background-color: black;
+}
 /* This is the part of Sampriti's styling */
 
 /* Sampriti's styling ends here */
 
 /* This is the part of Sayan's styling */
+.parenticon{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.icon{
+    width: 100%;
+    margin: 5px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 750px) and (min-width: 375px) {
+    .parenticon{
+        grid-template-columns: 35% 35%;
+        grid-row-gap: 10px;
+    }
+}
+@media screen and (max-width: 374px){
+    .parenticon{
+        grid-template-columns: 60%;
+        grid-row-gap: 10px;
+    }
+}
+.icon:hover{
+    background-color: rgb(255, 187, 0);
+    box-shadow: rgb(197, 197, 197) 0px 10px 20px 0px;
 
+}
 /* Sayan's styling ends here */
 
 /* This is the part of Gairik's styling */
