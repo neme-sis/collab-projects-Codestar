@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    color: white;
 }
 /* This is the part of Sampriti's styling */
 
@@ -11,32 +12,20 @@ body{
     grid-template-columns: 15% 15% 15% 15%;
     justify-content: space-evenly;
     padding: 10px;
-    opacity: 0;
-    transition: 1s ease;
+    opacity: 1;
 }
 #sayan{
     position: relative;
 }
 .icon{
     width: 100%;
-    margin: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     height: 100px;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     padding: 5px;
-}
-@media screen and (max-width: 800px) and (min-width: 376px) {
-    .parenticon{
-        grid-template-columns: 35% 35%;
-        grid-row-gap: 10px;
-    }
-}
-@media screen and (max-width: 375px){
-    .parenticon{
-        grid-template-columns: 60%;
-        grid-row-gap: 10px;
-    }
 }
 .icon:hover{
     background-color: rgb(255, 136, 0);
@@ -51,11 +40,73 @@ div.icon4 img{
 }
 .go{
     position: absolute;
-    top: -30%;
+    top: -25%;
     left: 80%;
-    animation: truck 3s ease-out 1;
+    animation: truck 3s cubic-bezier(0,0,0.60,1) 1;
     animation-delay: 500ms;
     opacity: 0;
+}
+.icon{
+    animation-name: visit;
+    animation-iteration-count: 1;
+    animation-duration: 500ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+.icon1{
+    animation-delay:2500ms ;
+}
+.icon2{
+    animation-delay:2000ms ;
+}
+.icon3{
+    animation-delay:1500ms ;
+}
+.icon4{
+    animation-delay:1000ms ;
+}
+
+@media screen and (max-width: 800px) and (min-width: 376px) {
+    .parenticon{
+        grid-template-columns: 35% 35%;
+        grid-row-gap: 10px;
+    }
+    .go{
+        display: none;
+    }
+    .icon1{
+        animation-delay:1000ms ;
+    }
+    .icon2{
+        animation-delay:1500ms ;
+    }
+    .icon3{
+        animation-delay:2000ms ;
+    }
+    .icon4{
+        animation-delay:2500ms ;
+    }
+}
+@media screen and (max-width: 375px){
+    .parenticon{
+        grid-template-columns: 60%;
+        grid-row-gap: 10px;
+    }
+    .go{
+        display: none;
+    }
+    .icon1{
+        animation-delay:1000ms ;
+    }
+    .icon2{
+        animation-delay:1500ms ;
+    }
+    .icon3{
+        animation-delay:2000ms ;
+    }
+    .icon4{
+        animation-delay:2500ms ;
+    }
 }
 
 @keyframes truck {
@@ -66,6 +117,27 @@ div.icon4 img{
         left: 0;
         opacity: 0.2;
     }
+}
+
+@keyframes visit {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, transparent, red);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(180deg, transparent, lime);;
 }
 
 /* Sayan's styling ends here */
