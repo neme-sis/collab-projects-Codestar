@@ -2,6 +2,7 @@ body{
     background-color: black;
     color: white;
     background-image:url('https://besthqwallpapers.com/Uploads/22-4-2019/88276/thumb2-black-wooden-boards-close-up-black-wooden-texture-wooden-backgrounds-macro.jpg') ;
+    background-size:100% 100% ;
 }
 /* This is the part of Sampriti's styling */
 .searchbox button:hover {  
