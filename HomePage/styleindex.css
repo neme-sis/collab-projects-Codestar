@@ -1,11 +1,21 @@
-body{
+.preloader{
     background-color: black;
-    height: 100vh;
+    position: absolute;
+    height: 160vh;
     display: flex;
+    z-index: 3;
+    width: 100%;
+    left: 0;
+    top: 0;
+    animation-name: visibl;
+    animation-duration: 100ms;
+    animation-delay: 3000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .anime{
     height: 100vh;
-    width: 95vw;
+    width: 50vw;
     position: relative;
     /* background-color: chocolate;
     border:rgb(31, 227, 241) solid 2px; */
@@ -138,6 +148,11 @@ body{
     100%{
         top: 100vh;
         opacity: 1;
+    }
+}
+@keyframes visibl {
+    100%{
+        opacity: 0;
     }
 }
 .content{
