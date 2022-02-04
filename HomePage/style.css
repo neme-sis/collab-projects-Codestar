@@ -124,7 +124,7 @@ div.icon4 img{
     top: -25%;
     left: 80%;
     animation: truck 3s cubic-bezier(0,0,0.60,1) 1;
-    animation-delay: 3500ms;
+    /* animation-delay: 3500ms; */
     opacity: 0;
 }
 .icon{
@@ -135,16 +135,16 @@ div.icon4 img{
     animation-fill-mode: forwards;
 }
 .icon1{
-    animation-delay:5500ms ;
+    animation-delay:2500ms ;
 }
 .icon2{
-    animation-delay:5000ms ;
+    animation-delay:2000ms ;
 }
 .icon3{
-    animation-delay:4500ms ;
+    animation-delay:1500ms ;
 }
 .icon4{
-    animation-delay:4000ms ;
+    animation-delay:1000ms ;
 }
 
 #header_sayan{
@@ -166,16 +166,16 @@ div.icon4 img{
         display: none;
     }
     .icon1{
-        animation-delay:4000ms ;
+        animation-delay:1000ms ;
     }
     .icon2{
-        animation-delay:4500ms ;
+        animation-delay:1500ms ;
     }
     .icon3{
-        animation-delay:5000ms ;
+        animation-delay:2000ms ;
     }
     .icon4{
-        animation-delay:5500ms ;
+        animation-delay:2500ms ;
     }
     #header_sayan{
         font-size: 1em;
@@ -190,16 +190,16 @@ div.icon4 img{
         display: none;
     }
     .icon1{
-        animation-delay:4000ms ;
+        animation-delay:1000ms ;
     }
     .icon2{
-        animation-delay:4500ms ;
+        animation-delay:1500ms ;
     }
     .icon3{
-        animation-delay:5000ms ;
+        animation-delay:2000ms ;
     }
     .icon4{
-        animation-delay:5500ms ;
+        animation-delay:2500ms ;
     }
     #header_sayan{
         font-size: 0.8em;

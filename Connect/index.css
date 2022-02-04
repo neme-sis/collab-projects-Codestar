@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Quintessential', cursive;
+
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(39, 38, 38);
+    color: rgba(77, 74, 74, 0.897);
+    font-size: 1rem;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    align-self: center;
+    position: relative;
+}
+
+.gairik {
+    
+    height: 450px;
+    width: 300px;
+    /* background-color: indigo; */
+    /* background-color: ; */
+    background: linear-gradient(135deg, skyblue, yellowgreen);
+    backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+
+}
+
+.contentone {
+
+    align-self: center;
+    height: 400px;
+    width: 250px;
+    /* background-color: ; */
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    text-align: center;
+
+    box-shadow: inset 12px 12px 30px rgba(255, 255, 255, 0.3),
+        -8px -8px 12px rgba(0, 0, 0, .25) inset, 5px 5px 35px black;
+    border-radius: 25px;
+    transition: 1s;
+
+}
+
+/* .contentone:hover {
+    transform: translate(0px, -500px);
+} */
+
+.sayan {
+    
+    height: 450px;
+    width: 300px;
+    /* background-color: indigo; */
+    background: linear-gradient(135deg, skyblue, yellowgreen);
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    position: relative;
+}
+
+.content2 {
+    align-self: center;
+    height: 400px;
+    width: 250px;
+
+    text-align: center;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    box-shadow: inset 12px 12px 30px rgba(255, 255, 255, 0.3),
+        -8px -8px 12px rgba(0, 0, 0, .25) inset, 5px 5px 35px black;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+/* .content2:hover {
+    transform: translate(0px, -500px);
+} */
+
+p {
+    text-align: justify;
+    padding: 5px;
+
+}
+
+.mybtn {
+    padding: 14px 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    color: white;
+    color: rgba(77, 74, 74, 0.897);
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    transform: translate(0px, 50%);
+    transition: 1s;
+    border: white solid 2px;
+}
+
+img:hover {
+
+    transform: scale(1.1);
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.contenti {
+    position: absolute;
+    height: auto;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.3);
+    bottom: 10px;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    align-self: center;
+    border-radius: 10px;
+    opacity: 0;
+    color: rgba(77, 74, 74, 0.897);
+    /* left: 5px; */
+}
+
+.contentii {
+    position: absolute;
+    height: 125px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.3);
+    bottom: 10px;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    align-self: center;
+    border-radius: 10px;
+    opacity: 0;
+    color: rgba(77, 74, 74, 0.897);
+}
+a{
+    color: black;
+    text-decoration: none;
+    color: rgba(21, 18, 228, 0.897);
+}
+
+@media screen and (max-width: 680px) {
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+    column-gap: 10px;
+    align-self: center;
+    position: relative;
+}
+.gairik {
+    margin-top: 300px;
+    height: 450px;
+
+}
+.sayan {
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+}

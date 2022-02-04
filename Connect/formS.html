@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            min-height: 100vh;
+            background-color: #2a2a2a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        form{
+            box-shadow: 10px 10px 35px black, inset -10px -10px 20px #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+            width: 70vw;
+        }
+        label{
+            font-size: 0.75rem;
+            margin-bottom: 6px;
+        }
+        input{
+            font-size: 1rem;
+            margin: 8px;
+            border-radius: 10px;
+            box-shadow: inset -5px -5px 5px rgb(195, 195, 195);
+        }
+        input#message{
+            margin-left: -1px;
+            height: 100px;
+            
+        }
+        input::placeholder{
+            font-size: 0.75rem;
+            display: flex;
+            position: absolute;
+            /* top: 5px; */
+            left: 5px;
+        }
+        button {
+            padding: 14px 16px;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(20px);
+            color: white;
+        }
+        p{
+            color: gray;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+        h4{
+            color: black;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            text-shadow: #4f4f4f 2px 2px, white 2px 2px 10px ;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="connection2.php" method="post">
+        <h3>Contact Me</h3><br>
+        <img src="sg.jpeg" alt=""><br>
+        <h4>Sayan Ghosh</h4>
+        <label for="name">Name : </label>
+        <input type="text" id="name" name="name" placeholder="Enter Name: " required>
+        <br>
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="email" placeholder="Enter Email Id:" required>
+        <br>
+        <label for="message">Message : </label>
+        <input type="text" id="message" name="message" placeholder="Enter Your Message: " required><br>
+        <button type="submit">Submit</button>
+        <p>Note: This Message will be <br> sent to the person</p>
+    </form>
+    <script>
+        function noenter() {
+  return !(window.event && window.event.keyCode == 13); }
+    </script>
+</body>
+</html>
