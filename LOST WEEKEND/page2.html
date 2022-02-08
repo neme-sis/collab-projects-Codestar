@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<head></head>
+
+<body>
+    <div class="total">
+        <div class="card1">
+            <div class="img1">
+
+            </div>
+            <div class="tl1">
+                <h2>COCKTAIL</h2>
+            </div>
+            <p>Mojito.Pimm's.Cosmopolitan.Frozen strawberry.......</p>
+        </div>
+        <div class="card2">
+            <div class="img2"></div>
+            <div class="tl2">
+                <h2>BAR FOOD</h2>
+            </div>
+            <p>Frenchfries.Onionrings. Nachos.<br> Wings.......
+            </p>
+        </div>
+        <div class="card3">
+            <div class="img3"></div>
+            <div class="tl3">
+                <h2>HARD DRINKS</h2>
+            </div>
+            <p>brandy.Vermouth.rum. Port wine.<br>Beer........</p>
+        </div>
+
+    </div>
+
+    <div class="sign">
+        <h2 class="sgh2">signature drinks</h2>
+    </div>
+</body>
+
+
+
+
+<style>
+    body {
+        background: url(pg2bg.jpg), rgba(0, 0, 0, 0.205);
+        background-blend-mode: saturation;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .total {
+        max-width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 35px;
+        margin: 0 auto;
+        padding: 40px;
+        grid-auto-flow: row;
+        background-color: rgba(0, 0, 0, 0.575);
+    }
+    
+    .card1,
+    .card2,
+    .card3 {
+        position: relative;
+        height: 487px;
+        width: 300px;
+        background: rgba(0, 0, 0, 0.39);
+        border: 3px solid #F1EBEB;
+        border-radius: 82px;
+    }
+    
+    .img1 {
+        width: 270px;
+        height: 268px;
+        border-radius: 113px;
+        border: 3px solid white;
+        background-image: url(cardig1.jpg);
+        background-size: cover;
+        margin-left: 11px;
+        margin-top: 10px;
+    }
+    
+    .img2 {
+        width: 270px;
+        height: 268px;
+        border-radius: 113px;
+        border: 3px solid white;
+        background-image: url(cardig2.jpg);
+        background-size: cover;
+        margin-left: 11px;
+        margin-top: 10px;
+    }
+    
+    .img3 {
+        width: 270px;
+        height: 268px;
+        border-radius: 113px;
+        border: 3px solid white;
+        background-image: url(cardig3.jpg);
+        background-size: cover;
+        margin-left: 11px;
+        margin-top: 10px;
+    }
+    
+    h2 {
+        font-family: Unica One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 57px;
+        color: white;
+        text-align: center;
+    }
+    
+    p {
+        color: white;
+        text-align: center;
+        font-family: Unica One;
+        font-size: 17px;
+    }
+    
+    .sign {
+        width: 400px;
+        margin-top: 20px;
+        height: 70px;
+        border: 3px solid white;
+        font-size: 70px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.39);
+        border-radius: 100px;
+    }
+    
+    .sgh2 {
+        position: absolute;
+        left: 660px;
+        bottom: 23px;
+    }
+</style>
+
+</html>
