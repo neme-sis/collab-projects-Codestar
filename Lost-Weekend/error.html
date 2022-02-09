@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .modal {
+            height: 150px;
+            width: 300px;
+            position: absolute;
+            z-index: 400;
+            background: url('./assets/hgbcg.jpeg'), rgba(15, 13, 13, 0.507);
+            background-blend-mode: saturation;
+            background-size: cover;
+            color: rgb(255, 255, 255);
+            font-size: 1rem;
+            font-weight: bold;
+            font-family: Unica One;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-transform: capitalize;
+            left: 40%;
+            border-radius: 110%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="modal">
+        Invalid Email or Password!!
+        <br><br>Check your occurence accurately.
+    </div>
+    <script>
+        var modal = document.getElementsByClassName('modal')[0];
+        setTimeout(() => {
+            modal.style.display = 'none';
+        }, 5000)
+    </script>
+</body>
+
+</html>

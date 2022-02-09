@@ -1,5 +1,9 @@
+
+*{
+    box-sizing: border-box;
+}
 body {
-    background: url(../ASSETS/pg2bg.jpg), rgba(15, 13, 13, 0.205);
+    background: url(../assets/pg2bg.jpg), rgba(15, 13, 13, 0.205);
     background-blend-mode: saturation;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,7 +102,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(../ASSETS/vodka.jpg);
+    background-image: url(../assets/vodka.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     left: 60px;
@@ -109,7 +113,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(../ASSETS/wine.jpg);
+    background-image: url(../assets/wine.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     right: 65px;
@@ -120,7 +124,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(../ASSETS/RUM.jpg);
+    background-image: url(../assets/RUM.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     left: 65px;
@@ -131,7 +135,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(../ASSETS/fris.jpg);
+    background-image: url(../assets/fris.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     right: 65px;
@@ -142,7 +146,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(../ASSETS/barger.jpg);
+    background-image: url(../assets/barger.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     left: 65px;
@@ -153,7 +157,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(../ASSETS/pizza.png);
+    background-image: url(../assets/pizza.png);
     background-repeat: no-repeat;
     background-size: cover;
     right: 65px;
@@ -164,7 +168,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(../ASSETS/mojito.jpg);
+    background-image: url(../assets/mojito.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     left: 65px;
@@ -175,7 +179,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(../ASSETS/martini.jpg);
+    background-image: url(../assets/martini.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     right: 65px;
@@ -309,7 +313,6 @@ ul {
 }
 
 h2 {
-    font-family: Unica One;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -317,3 +320,20 @@ h2 {
     color: white;
     text-align: center;
 }
+/*.glow {*/
+/*  font-size: 80px;*/
+/*  color: #fff;*/
+/*  text-align: center;*/
+/*  -webkit-animation: glow 1s ease-in-out infinite alternate;*/
+/*  -moz-animation: glow 1s ease-in-out infinite alternate;*/
+/*  animation: glow 1s ease-in-out infinite alternate;*/
+/*}*/
+
+/*@-webkit-keyframes glow {*/
+/*  from {*/
+/*    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;*/
+/*  }*/
+/*  to {*/
+/*    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;*/
+/*  }*/
+/*}*/
