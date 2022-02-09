@@ -1,5 +1,5 @@
 body {
-    background: url(pg2bg.jpg), rgba(15, 13, 13, 0.205);
+    background: url(../ASSETS/pg2bg.jpg), rgba(15, 13, 13, 0.205);
     background-blend-mode: saturation;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,7 +98,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(vodka.jpg);
+    background-image: url(../ASSETS/vodka.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     left: 60px;
@@ -109,7 +109,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(wine.jpg);
+    background-image: url(../ASSETS/wine.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     right: 65px;
@@ -120,7 +120,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(RUM.jpg);
+    background-image: url(../ASSETS/RUM.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     left: 65px;
@@ -131,7 +131,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(fris.jpg);
+    background-image: url(../ASSETS/fris.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     right: 65px;
@@ -142,7 +142,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(barger.jpg);
+    background-image: url(../ASSETS/barger.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     left: 65px;
@@ -153,7 +153,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(pizza.png);
+    background-image: url(../ASSETS/pizza.png);
     background-repeat: no-repeat;
     background-size: cover;
     right: 65px;
@@ -164,7 +164,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(mojito.jpg);
+    background-image: url(../ASSETS/mojito.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     left: 65px;
@@ -175,7 +175,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(martini.jpg);
+    background-image: url(../ASSETS/martini.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     right: 65px;
@@ -196,12 +196,15 @@ body {
     0% {
         left: 140px;
     }
+
     25% {
         left: 180px;
     }
+
     50% {
         left: 140px
     }
+
     75% {
         left: 100px;
     }
@@ -299,6 +302,7 @@ ul {
     from {
         left: 30px;
     }
+
     to {
         left: 60px;
     }

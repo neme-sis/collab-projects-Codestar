@@ -1,5 +1,6 @@
 body {
-    background: url(pg2bg.jpg), rgba(0, 0, 0, 0.205);
+    text-transform: capitalize;
+    background: url(./ASSETS/pg2bg.jpg), rgba(0, 0, 0, 0.205);
     background-blend-mode: saturation;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,7 +39,7 @@ body {
     height: 268px;
     border-radius: 113px;
     border: 3px solid white;
-    background-image: url(cardig1.jpg);
+    background-image: url(./ASSETS/cardig1.jpg);
     background-size: cover;
     margin-left: 11px;
     margin-top: 10px;
@@ -49,7 +50,7 @@ body {
     height: 268px;
     border-radius: 113px;
     border: 3px solid white;
-    background-image: url(cardig2.jpg);
+    background-image: url(./ASSETS/cardig2.jpg);
     background-size: cover;
     margin-left: 11px;
     margin-top: 10px;
@@ -60,7 +61,7 @@ body {
     height: 268px;
     border-radius: 113px;
     border: 3px solid white;
-    background-image: url(cardig3.jpg);
+    background-image: url(./ASSETS/cardig3.jpg);
     background-size: cover;
     margin-left: 11px;
     margin-top: 10px;
@@ -92,10 +93,12 @@ p {
     text-align: center;
     background: rgba(0, 0, 0, 0.39);
     border-radius: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sgh2 {
     position: absolute;
-    left: 660px;
-    bottom: 23px;
 }
